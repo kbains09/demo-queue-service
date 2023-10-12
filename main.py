@@ -5,7 +5,7 @@ client = boto3.client('sqs',region_name='us-east-1',aws_access_key_id="AKIA47WUM
          aws_secret_access_key= "HlsHFPFfxKI1NRcNJlej59kUvx88cxic+84PFe59")
 
 # URL of the queue
-queue_url = 'https://sqs.us-east-1.amazonaws.com/892724857555/MyQueue
+queue_url = 'https://sqs.us-east-1.amazonaws.com/892724857555/MyQueue'
 
 # Send message to SQS queue
 response = client.send_message(
